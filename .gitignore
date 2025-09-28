@@ -1,0 +1,15 @@
+# python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# data (don't push raw)
+data/raw/
+data/clean/
+
+# jupyter
+.ipynb_checkpoints/
+
+# optionally ignore large outputs if you don't want images in repo
+# outputs/
